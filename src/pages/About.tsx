@@ -143,7 +143,7 @@ const About = () => {
                 </div>
 
                 {/* Shristi */}
-                <div className="bg-background rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+                {/* <div className="bg-background rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
                   <h3 className="text-xl font-semibold mb-2">Shristi Karki</h3>
                   <p className="text-muted-foreground mb-4">
                     Design Team — leads visual design and creative direction
@@ -157,7 +157,7 @@ const About = () => {
                       <Mail className="w-5 h-5" />
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
