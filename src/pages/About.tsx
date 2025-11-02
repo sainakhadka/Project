@@ -105,7 +105,7 @@ const About = () => {
                       <Mail className="w-5 h-5" />
                     </a>
                     <a
-                      href="https://linkedin.com/in/xxx"
+                      href="https://linkedin.com/in/siddharthapathak"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-accent hover:text-accent/80"
