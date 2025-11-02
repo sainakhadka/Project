@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Users, Target, Lightbulb } from "lucide-react";
+import { Users, Target, Lightbulb, Mail, Linkedin, Globe } from "lucide-react";
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
           {/* Header */}
           <div className="text-center space-y-4 mb-16 animate-fade-in">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              About LeafClutch
+              About LeafClutch Technologies
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl max-w-2xl mx-auto">
               Empowering businesses through intelligent automation
@@ -23,11 +23,23 @@ const About = () => {
           <div className="max-w-4xl mx-auto space-y-12 animate-slide-up">
             <div className="prose prose-lg mx-auto">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded by Siddhartha Pathak, LeafClutch.dev focuses on building
-                automation and AI systems that simplify operations for modern
-                businesses. We believe that every organization, regardless of
-                size, should have access to powerful AI-driven tools that drive
-                growth and efficiency.
+                LeafClutch Technologies is a technology-driven startup
+                established in October 2025, specializing in the development of
+                automation and artificial intelligence systems designed to
+                streamline business operations. Although currently in our
+                initial growth phase, we are committed to delivering reliable
+                and scalable solutions that empower organizations to operate
+                more efficiently.
+              </p>
+              <br />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                At LeafClutch, we believe that every business—regardless of size
+                or industry—should have access to advanced, AI-powered tools
+                that promote growth, enhance decision-making, and improve
+                overall performance. Our mission is to combine innovation with
+                practicality, helping enterprises harness the full potential of
+                automation and artificial intelligence to achieve sustainable
+                success.
               </p>
             </div>
 
@@ -67,13 +79,86 @@ const About = () => {
               </div>
             </div>
 
-            {/* Team Section Placeholder */}
-            <div className="mt-16 p-8 bg-secondary rounded-lg">
-              <h2 className="text-2xl font-bold mb-4 text-center">Our Team</h2>
-              <p className="text-center text-muted-foreground">
+            {/* Team Section */}
+            <div className="mt-20 bg-secondary rounded-2xl p-10 shadow-lg">
+              <h2 className="text-3xl font-bold text-center mb-10">Our Team</h2>
+              <p className="text-center text-muted-foreground mb-12">
                 A dedicated group of AI engineers, developers, and automation
                 specialists committed to transforming how businesses operate.
               </p>
+
+              <div className="grid gap-8 md:grid-cols-3">
+                {/* Siddhartha */}
+                <div className="bg-background rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+                  <h3 className="text-xl font-semibold mb-2">
+                    Siddhartha Pathak
+                  </h3>
+                  <p className="text-muted-foreground mb-4">
+                    Founder & AI Strategist — leads client relations, project
+                    direction, and AI solution design.
+                  </p>
+                  <div className="flex justify-center gap-4">
+                    <a
+                      href="mailto:sid@leafclutch.dev"
+                      className="text-accent hover:text-accent/80"
+                    >
+                      <Mail className="w-5 h-5" />
+                    </a>
+                    <a
+                      href="https://linkedin.com/in/xxx"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-accent hover:text-accent/80"
+                    >
+                      <Linkedin className="w-5 h-5" />
+                    </a>
+                    <a
+                      href="https://siddharthapathak.com.np/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-accent hover:text-accent/80"
+                    >
+                      <Globe className="w-5 h-5" />
+                    </a>
+                  </div>
+                </div>
+
+                {/* Pawan */}
+                <div className="bg-background rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+                  <h3 className="text-xl font-semibold mb-2">
+                    Pawan Chaudhary
+                  </h3>
+                  <p className="text-muted-foreground mb-4">
+                    Technical Lead — oversees infrastructure, website
+                    management, and assists in recruitment.
+                  </p>
+                  <div className="flex justify-center gap-4">
+                    <a
+                      href="mailto:pawan@leafclutch.dev"
+                      className="text-accent hover:text-accent/80"
+                    >
+                      <Mail className="w-5 h-5" />
+                    </a>
+                  </div>
+                </div>
+
+                {/* Shristi */}
+                <div className="bg-background rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+                  <h3 className="text-xl font-semibold mb-2">Shristi Karki</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Design Team — leads visual design and creative direction
+                    across projects.
+                  </p>
+                  <div className="flex justify-center gap-4">
+                    <a
+                      href="mailto:shristi@leafclutch.dev"
+                      className="text-accent hover:text-accent/80"
+                    >
+                      <Mail className="w-5 h-5" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

@@ -12,10 +12,12 @@ const Footer = () => {
             <Link to="/" className="flex items-center space-x-3">
               <img
                 src={logo}
-                alt="LeafClutch.dev"
+                alt="LeafClutch Technologies"
                 className="h-15 w-20 drop-shadow-lg"
               />
-              <span className="text-2xl font-bold">LeafClutch</span>
+              <span className="text-2xl font-bold">
+                LeafClutch Technologies
+              </span>
             </Link>
             <p className="text-base opacity-50">
               Transforming businesses through intelligent AI solutions
@@ -74,14 +76,14 @@ const Footer = () => {
 
         <div className="mt-8 border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-90">
           <div className="flex space-x-7">
-            <a
+            {/* <a
               href="https://www.instagram.com/leafclutch.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
             >
               <Instagram className="h-8 w-8" />
-            </a>
+            </a> */}
             <a
               href="https://x.com/leafclutch_dev/"
               target="_blank"
@@ -106,7 +108,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="opacity-50">
-            © 2025 LeafClutch.dev | All Rights Reserved.
+            © 2025 LeafClutch Technologies | All Rights Reserved.
           </p>
         </div>
       </div>

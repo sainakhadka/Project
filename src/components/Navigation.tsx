@@ -23,8 +23,10 @@ const Navigation = () => {
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between px-4 md:px-6">
         <Link to="/" className="flex items-center space-x-3">
-          <img src={logo} alt="LeafClutch.dev" className="h-12 w-15" />
-          <span className="text-xl font-bold text-primary">LeafClutch</span>
+          <img src={logo} alt="LeafClutch Technologies" className="h-12 w-15" />
+          <span className="text-xl font-bold text-primary">
+            LeafClutch Technologies
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
