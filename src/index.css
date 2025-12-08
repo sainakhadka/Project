@@ -5,6 +5,14 @@
 /* Design system for LeafClutch.dev - matching TrueHorizon aesthetic */
 
 @layer base {
+  /*html{
+    font-family: "Inter", sans-serif;
+  }*/
+
+  body {
+  font-family: "Urbanist", sans-serif;
+}
+
   :root {
     --background: 0 0% 100%;
     --foreground: 210 100% 12%;
@@ -105,3 +113,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+
+

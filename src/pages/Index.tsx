@@ -277,95 +277,87 @@ const Index = () => (
       </section>
 
       {/* Our Process Section */}
-      <section className="container px-4 py-20 md:px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-foreground md:text-4xl mb-4">
-            Our Process
-          </h2>
+  <section className="container px-4 py-20 md:px-6">
+   <div className="text-center mb-12">
+    <h2 className="text-3xl font-bold text-foreground md:text-4xl mb-4">
+      Our Process
+    </h2>
+  </div>
+
+  <div className="space-y-16">
+    {/* Discovery */}
+    <div className="grid lg:grid-cols-2 gap-4 items-center transition-transform duration-300 hover:scale-105">
+      <div className="px-4 lg:pl-8 lg:max-w-[500px]"> 
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold text-xl">
+            1
+          </div>
+          <h3 className="text-2xl font-bold text-foreground">Discovery</h3>
         </div>
+        <p className="text-muted-foreground text-lg">
+          We begin by understanding your vision, pain points, and business goals through in-depth discovery sessions. This ensures our AI solutions align perfectly with your strategic objectives and deliver measurable results.
+        </p>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={processDiscovery}
+          alt="Discovery Process"
+          className="rounded-lg shadow-lg w-full md:w-2/3"
+        />
+      </div>
+    </div>
 
-        <div className="space-y-16">
-          {/* Discovery */}
-          <div className="grid lg:grid-cols-2 gap-8 items-center transition-transform duration-300 hover:scale-110">
-            <div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold text-xl">
-                  1
-                </div>
-                <h3 className="text-2xl font-bold text-foreground">
-                  Discovery
-                </h3>
-              </div>
-              <p className="text-muted-foreground text-lg">
-                We begin by understanding your vision, pain points, and
-                business goals through in-depth discovery sessions. This
-                ensures our AI solutions align perfectly with your strategic
-                objectives and deliver measurable results.
-              </p>
-            </div>
-            <div>
-              <img
-                src={processDiscovery}
-                alt="Discovery Process"
-                className="rounded-lg shadow-lg w-full md:w-3/4 mx-auto"/>
-            </div>
-          </div>
-
-          {/* Development */}
-          <div className="grid lg:grid-cols-2 gap-8 items-center transition-transform duration-300 hover:scale-110">
-            <div className="order-2 lg:order-1">
-              <img
-                src={processDevelopment}
-                alt="Development Process"
-                className="rounded-lg w-full md:w-3/4 mx-auto" />
-            </div>
-            <div className="order-1 lg:order-2">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold text-xl">
-                  2
-                </div>
-                <h3 className="text-2xl font-bold text-foreground">
-                  Development
-                </h3>
-              </div>
-              <p className="text-muted-foreground text-lg">
-                Our expert team builds, tests, and refines your custom AI
-                automation systems using cutting-edge technologies and best
-                practices. We maintain transparent communication throughout
-                the development cycle.
-              </p>
-            </div>
-          </div>
-
-          {/* Deployment */}
-          <div className="grid lg:grid-cols-2 gap-8 items-center transition-transform duration-300 hover:scale-110">
-            <div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold text-xl">
-                  3
-                </div>
-                <h3 className="text-2xl font-bold text-foreground">
-                  Deployment
-                </h3>
-              </div>
-              <p className="text-muted-foreground text-lg">
-                We seamlessly deploy your AI systems into production with
-                continuous monitoring and optimization. Our ongoing support
-                ensures your automation performs at peak efficiency as your
-                business grows.
-              </p>
-            </div>
-            <div>
-              <img
-                src={processDeployment}
-                alt="Deployment Process"
-                className="rounded-lg w-full md:w-3/4 mx-auto"/>
-            </div>
-          </div>
+    {/* Development */}
+    <div className="grid lg:grid-cols-2 gap-4 items-center transition-transform duration-300 hover:scale-105">
+      <div className="order-2 lg:order-1 flex justify-center">
+        <div className="w-full max-w-md">
+          <img
+            src={processDevelopment}
+            alt="Development Process"
+            className="rounded-lg w-full"
+          />
         </div>
-      </section>
+      </div>
+      <div className="order-1 lg:order-2 px-4 lg:pl-8 lg:max-w-[500px]"> 
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold text-xl">
+            2
+          </div>
+          <h3 className="text-2xl font-bold text-foreground">Development</h3>
+        </div>
+        <p className="text-muted-foreground text-lg">
+          Our expert team builds, tests, and refines your custom AI automation systems using cutting-edge technologies and best practices. We maintain transparent communication throughout the development cycle.
+        </p>
+      </div>
+    </div>
 
-      {/* Real Business Results Section */}
+    {/* Deployment */}
+    <div className="grid lg:grid-cols-2 gap-4 items-center transition-transform duration-300 hover:scale-105">
+      <div className="px-4 lg:pl-8 lg:max-w-[500px]">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold text-xl">
+            3
+          </div>
+          <h3 className="text-2xl font-bold text-foreground">Deployment</h3>
+        </div>
+        <p className="text-muted-foreground text-lg">
+          We seamlessly deploy your AI systems into production with continuous monitoring and optimization. Our ongoing support ensures your automation performs at peak efficiency as your business grows.
+        </p>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={processDeployment}
+          alt="Deployment Process"
+          className="rounded-lg w-full md:w-2/3"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+       {/* Real Business Results Section */}
        <section className="bg-secondary/30 py-20">
           <div className="container px-4 md:px-6">
             <div className="text-center mb-12">

@@ -9,8 +9,8 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white pt-8 pb-6 px-6"> {/* Reduced pt-12 to pt-8, pb-8 to pb-6 */}
-  <div className="max-w-7xl mx-auto">
+    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white pt-4 px-6 ">{/* Reduced pt-12 to pt-8, pb-8 to pb-6 */}
+  <div className="max-w-7xl mx-auto ">
     {/* Call to Action Section - Made more compact */}
     <div className="text-center mb-8"> {/* Reduced mb-12 to mb-8 */}
       <h2 className="text-2xl font-bold mb-3">Ready to start your AI journey?</h2> {/* Reduced text-3xl to text-2xl */}
@@ -83,12 +83,12 @@ const Footer = () => {
         <h4 className="text-lg font-bold mb-4 text-emerald-400">Connect With Us</h4> {/* Reduced text-xl to text-lg, mb-6 to mb-4 */}
         <div className="flex items-center mb-3"> {/* Reduced mb-4 to mb-3 */}
           <MdEmail className="text-xl text-emerald-400 mr-2" /> {/* Reduced text-2xl to text-xl, mr-3 to mr-2 */}
-          <div>
+         
             <p className="text-gray-300 text-sm">Email:</p> {/* Added text-sm */}
             <a href="mailto:info@leafclutch.dev" className="text-emerald-400 hover:text-emerald-300 font-semibold text-sm"> {/* Added text-sm */}
               info@leafclutch.dev
             </a>
-          </div>
+        
         </div>
         
         {/* Social Media Icons */}
@@ -110,7 +110,7 @@ const Footer = () => {
     </div>
 
     {/* Copyright */}
-    <div className="mt-8 pt-4 border-t border-gray-700 text-center"> {/* Reduced mt-12 to mt-8, pt-6 to pt-4 */}
+    <div className=" mt-2 py-2 border-t border-gray-700 text-center"> {/* Reduced mt-12 to mt-8, pt-6 to pt-4 */}
       <p className="text-gray-400 text-sm"> {/* Added text-sm */}
         Copyright © 2015 LeafClutch.dev. All rights reserved.
       </p>
