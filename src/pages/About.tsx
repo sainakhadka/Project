@@ -313,7 +313,7 @@ const About = () => {
                 </div>
                 <div className="text-center">
                      <h3 className="text-xl font-semibold text-gray-900">Guatami sinde</h3>
-                     <p className="text-gray-600 mb-2">Vice President of Engineering</p>
+                     <p className="text-gray-600 mb-2">AI Engineer</p>
                        <a 
               href="https://www.linkedin.com/in/geeshinde/" 
               target="_blank" 
@@ -363,7 +363,7 @@ const About = () => {
                 </div>
                 <div className="text-center">
                      <h3 className="text-xl font-semibold text-gray-900">Maalik baksin</h3>
-                     <p className="text-gray-600 mb-2">Vice President of Engineering</p>
+                     <p className="text-gray-600 mb-2">AI Engineer</p>
                        <a 
               href="https://www.linkedin.com/in/mallika-bakshi/" 
               target="_blank" 

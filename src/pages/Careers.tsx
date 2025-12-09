@@ -1065,7 +1065,7 @@ const Careers = () => {
             </p>
 
             <a
-              href="mailto:careers@leafclutch.dev"
+              href="https://mail.google.com/mail/?view=cm&to=careers@leafclutch.dev"
               target="_blank"
               rel="noopener noreferrer"
             >
