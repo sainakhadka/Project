@@ -22,6 +22,8 @@ import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
 import image4 from "@/assets/image4.png";
 import image5 from "@/assets/image5.png";
+import Ff from "@/components/Ff.tsx";
+
 
 const Pricing = () => {
   const plans = [
@@ -342,7 +344,7 @@ const Pricing = () => {
           </div>
         </section>
 
-        <Footer />
+        <Ff />
       </div>
     </div>
   );

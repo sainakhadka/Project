@@ -13,6 +13,8 @@ import { Mail } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { toast } from "sonner";
+import Ff from "@/components/Ff.tsx";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -56,7 +58,7 @@ const Contact = () => {
         <section className="container px-4 py-20 md:px-6">
           <div className="text-center space-y-4 mb-16 animate-fade-in">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              Get in Touch with LeafClutch.dev
+              Get in Touch with LeafClutch Technologies
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl max-w-2xl mx-auto">
               Whether you're exploring automation or looking to join our team,
@@ -171,7 +173,7 @@ const Contact = () => {
         </section>
       </main>
 
-      <Footer />
+      <Ff />
     </div>
   );
 };

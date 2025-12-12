@@ -222,10 +222,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-left text-gray-700">
-                  <li>• Strong Python programming skills</li>
+                  <li>• laptop and internet</li>
+                 {/* <li>• Strong Python programming skills</li>
                   <li>• Understanding of ML fundamentals</li>
                   <li>• Familiarity with PyTorch or TensorFlow</li>
-                  <li>• Interest in AI research and applications</li>
+                  <li>• Interest in AI research and applications</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -336,10 +337,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• Strong Python programming skills</li>
+                   <li>• laptop and internet</li>
+                 {/*} <li>• Strong Python programming skills</li>
                   <li>• Understanding of ML fundamentals</li>
                   <li>• Familiarity with PyTorch or TensorFlow</li>
-                  <li>• Interest in AI research and applications</li>
+                  <li>• Interest in AI research and applications</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -451,10 +453,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• Basic understanding of mobile app development</li>
+                  <li>• laptop and internet</li>
+                 {/*} <li>• Basic understanding of mobile app development</li>
                   <li>• Familiarity with at least one framework: Flutter, React Native, or Android (Java/Kotlin)</li>
                   <li>• Basic understanding of APIs, JSON, and database operations</li>
-                  <li>• Experience with Git & GitHub</li>
+                  <li>• Experience with Git & GitHub</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -566,10 +569,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• Basic understanding of Python and AI/ML concepts</li>
+                  <li>• laptop and internet</li>
+                 {/*} <li>• Basic understanding of Python and AI/ML concepts</li>
                   <li>• Familiarity with Large Language Models (LLMs)</li>
                   <li>• Knowledge of frameworks such as LangChain, OpenAI API, or similar tools</li>
-                  <li>• Experience with Git & GitHub</li>
+                  <li>• Experience with Git & GitHub</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -680,10 +684,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• JavaScript/TypeScript proficiency</li>
+                  <li>• laptop and internet</li>
+                  {/*<li>• JavaScript/TypeScript proficiency</li>
                   <li>• React or similar framework experience</li>
                   <li>• Understanding of REST APIs</li>
-                  <li>• Git version control knowledge</li>
+                  <li>• Git version control knowledge</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -794,10 +799,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• Basic knowledge of HTML, CSS, JavaScript</li>
+                  <li>• laptop and internet</li>
+                 {/* <li>• Basic knowledge of HTML, CSS, JavaScript</li>
                   <li>• Understanding of React.js</li>
                   <li>• Familiarity with Node.js & Express.js</li>
-                  <li>• Basic understanding of MongoDB database</li>
+                  <li>• Basic understanding of MongoDB database</li> */}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -909,10 +915,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• Basic understanding of JavaScript</li>
+                  <li>• laptop and internet</li>
+                  {/*<li>• Basic understanding of JavaScript</li>
                   <li>• Familiarity with APIs, webhooks, and JSON</li>
                   <li>• Knowledge of n8n, Zapier, Make.com, or similar automation tools</li>
-                  <li>• Understanding of databases (MongoDB, MySQL, or PostgreSQL)</li>
+                  <li>• Understanding of databases (MongoDB, MySQL, or PostgreSQL)</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}
@@ -1024,10 +1031,11 @@ const Careers = () => {
                   Requirements:
                 </h3>
                 <ul className="mt-2 space-y-1 text-gray-700 text-left">
-                  <li>• Basic understanding of programming concepts (JavaScript, Python, or similar)</li>
+                  <li>• laptop and internet</li>
+                 {/* <li>• Basic understanding of programming concepts (JavaScript, Python, or similar)</li>
                   <li>• Familiarity with API integration, JSON, and webhooks</li>
                   <li>• Understanding of databases and data handling</li>
-                  <li>• Ability to read and understand API documentation</li>
+                  <li>• Ability to read and understand API documentation</li>*/}
                 </ul>
 
                 {/* What You'll Learn */}

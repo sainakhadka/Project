@@ -16,6 +16,7 @@ import processDevelopment from "@/assets/process-development.jpg";
 import processDeployment from "@/assets/process-deployment.jpg";
 import { Cpu, Shield, BarChart3, Brain, Lock, Zap } from "lucide-react";
 import microsoft from "@/assets/microsoft.svg";
+import Ff from "@/components/Ff.tsx";
 
 const Index = () => (
   <div className="min-h-screen flex flex-col">
@@ -582,7 +583,7 @@ const Index = () => (
       </section>
     </main>
 
-    <Footer />
+    <Ff/>
   </div>
 );
 

@@ -2,6 +2,8 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Book, Code, Zap, Settings } from "lucide-react";
+import Ff from "@/components/Ff.tsx";
+
 
 const Docs = () => {
   const [activeSection, setActiveSection] = useState("setup");
@@ -92,7 +94,7 @@ const Docs = () => {
         </div>
       </main>
 
-      <Footer />
+      <Ff />
     </div>
   );
 };

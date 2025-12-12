@@ -97,7 +97,7 @@ export default {
         "scroll-up": "scroll-up 20s linear infinite",
         "scroll-down": "scroll-down 20s linear infinite",
       },
-    },
+    }, 
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

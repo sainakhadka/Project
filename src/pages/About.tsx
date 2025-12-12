@@ -2,10 +2,12 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Users, Target, Lightbulb, Mail, Linkedin, Globe } from "lucide-react";
 
+import Ff from "@/components/Ff.tsx";
 
 
 
 const About = () => {
+  
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -36,9 +38,9 @@ const About = () => {
               </p>
               <br />
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At LeafClutch, we believe that every business—regardless of size
-                or industry—should have access to advanced, AI-powered tools
-                that promote growth, enhance decision-making, and improve
+                At LeafClutch, we believe that every business regardless of size
+                or industruy should have access to advanced, AI-powered tools
+                that promote growth, enhance decision making, and improve
                 overall performance. Our mission is to combine innovation with
                 practicality, helping enterprises harness the full potential of
                 automation and artificial intelligence to achieve sustainable
@@ -84,7 +86,7 @@ const About = () => {
 
             {/* Team Section */}
             <div className="mt-20 bg-secondary rounded-2xl p-10 shadow-lg">
-              <h2 className="text-3xl font-bold text-center mb-10">Our Team</h2>
+              <h2 className="text-3xl font-bold text-center mb-10">Founders</h2>
               <p className="text-center text-muted-foreground mb-12">
                 A dedicated group of AI engineers, developers, and automation
                 specialists committed to transforming how businesses operate.
@@ -174,21 +176,21 @@ const About = () => {
 
           {/*our team*/}
           <div>
-          <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center pt-4">Team</h3>
+          <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center pt-4"> Our Team Members</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="flex flex-col items-center">
                 <div className="relative w-56 h-56 mb-6 overflow-hidden">
                       <img
-              src= "https://media.licdn.com/dms/image/v2/D5603AQHzl0FNihpJKQ/profile-displayphoto-shrink_800_800/B56ZW2RqLOHoAg-/0/1742519837751?e=1766620800&v=beta&t=c0EN9p1M8hJBgSCvKS-L67zDSW9PCtnyf8lhbGJiZgo"
+              src= "https://media.licdn.com/dms/image/v2/D5603AQEaaMc8rBUQAw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727595570674?e=1767225600&v=beta&t=D0BdvqYjA4wRimhpPF3RFy2XXAWAsGEwroni_dO00DY"
               alt="member"
               className="w-full h-full object-cover rounded-lg"
             />
                 </div>
                 <div className="text-center">
-                     <h3 className="text-xl font-semibold text-gray-900">Team1</h3>
+                     <h3 className="text-xl font-semibold text-gray-900">Pawan Chaudhary</h3>
                      <p className="text-gray-600 mb-2">Vice President of Engineering</p>
                        <a 
-              href="https://www.linkedin.com/in/martinoosthuizn/" 
+              href="https://www.linkedin.com/in/pawan-cdhry/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-flex items-center text-sm text-[#0077B5] hover:text-[#005582] transition-colors"
@@ -205,16 +207,16 @@ const About = () => {
             <div className="flex flex-col items-center">
                 <div className="relative w-56 h-56 mb-6 overflow-hidden">
                       <img
-              src="https://media.licdn.com/dms/image/v2/D4E03AQH7zo4-gLhXmA/profile-displayphoto-shrink_400_400/B4EZdWz5q1GcAg-/0/1749508136736?e=1766620800&v=beta&t=rFPSQbwPPuLmZ-t29dSI9xznjfCIoOoG4IxEtz2Wm8Q"
+              src="https://media.licdn.com/dms/image/v2/D5603AQFeJUfaYD1o7Q/profile-displayphoto-scale_400_400/B56ZpI_5FCIsAg-/0/1762161302172?e=1767225600&v=beta&t=FAailMtXwsUCEB3fL9czUilB0aJCBIisuIcbH9mg6NU"
               alt="member"
               className="w-full h-full object-cover rounded-lg"
             />
                 </div>
                 <div className="text-center">
-                     <h3 className="text-xl font-semibold text-gray-900">Team2</h3>
+                     <h3 className="text-xl font-semibold text-gray-900">Shristi karki</h3>
                      <p className="text-gray-600 mb-2">AI project manager</p>
-                       <a 
-              href="https://www.linkedin.com/in/vishal-hada/" 
+                       <a   
+              href="https://www.linkedin.com/in/shristi-karki-388122391/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-flex items-center text-sm text-[#0077B5] hover:text-[#005582] transition-colors"
@@ -230,16 +232,16 @@ const About = () => {
             <div className="flex flex-col items-center">
                 <div className="relative w-56 h-56 mb-6 overflow-hidden">
                       <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQG9zuS64DaP2Q/profile-displayphoto-scale_400_400/B4DZheNzwNGgAg-/0/1753927337148?e=1766620800&v=beta&t=UNE7L_R-rLiuJtGEOj4BcFpHe-rgBFVjM8dZ484It-U"
+                      src="https://media.licdn.com/dms/image/v2/D5603AQEMm5dto6hxRQ/profile-displayphoto-scale_400_400/B56Zi8N8_BG0Ak-/0/1755504432211?e=1767225600&v=beta&t=D4mkfjw-PQG7EQB4Y-OJBdfzyLp9yZL5bUFZY0uOC2A"
               alt="member"
               className="w-full h-full object-cover rounded-lg"
             />
                 </div>
                 <div className="text-center">
-                     <h3 className="text-xl font-semibold text-gray-900">Deepenkar</h3>
+                     <h3 className="text-xl font-semibold text-gray-900">Bijay koirala</h3>
                      <p className="text-gray-600 mb-2">founding enginner</p>
                        <a 
-              href="https://www.linkedin.com/in/deepankarbsen/" 
+              href="https://www.linkedin.com/in/bijay-koirala-a98a0a260/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-flex items-center text-sm text-[#0077B5] hover:text-[#005582] transition-colors"
@@ -515,7 +517,7 @@ const About = () => {
         </section>
       </main>
 
-      <Footer />
+      <Ff />
     </div>
   );
 };
